@@ -1,0 +1,10 @@
+??????.jpg
+*.tfrecords
+steer_log.txt
+*.npz
+*/logs/*
+*.h5
+*.data-00000-of-00001
+*.meta
+*.index
+*.graph
