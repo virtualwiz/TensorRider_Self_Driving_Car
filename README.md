@@ -1,6 +1,6 @@
 # TensorRider 自动驾驶车
 
-![pics\TensorRider](pics\TensorRider.jpg)
+![](pics/TensorRider.jpg)
 
 TensorRider是一种基于BP神经网络，对驾驶场景具有学习能力的的简易自动驾驶车模型。目前，TensorRider仅能实现基本的车道保持功能，即在学习了操作者的遥控驾驶行为后，根据经验对类似的场景做出自动驾驶行为。
 
@@ -75,7 +75,7 @@ python3 convert_to_tfrecords_once.py
 这一步骤将加载数据集，建立BP神经网络，并使用上一步获得的数据集进行训练。
 如果需要，先启动安装有TensorFlow的虚拟环境，使用Jupyter Notebook打开```Step_2&3a_Train&Run```目录中的```model_control_tensorlayer.ipynb```，按照Jupyter Notebook中的说明执行程序即可。
 
-![pics\jupyter](pics\jupyter.jpg)
+![](pics/jupyter.jpg)
 
 *PS 我使用的是一台游戏型笔记本电脑，装有CUDA并使用NVIDIA Geforce GTX 1050显卡进行神经网络训练。在我的机器上加载40000张图片作为训练集，大约训练20分钟后达到收敛，之后出现了较明显的过拟合现象。希望可以给读者一个大致印象。*
 
