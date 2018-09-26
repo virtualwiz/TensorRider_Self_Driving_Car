@@ -1,6 +1,4 @@
-??????.jpg
 *.tfrecords
-steer_log.txt
 *.npz
 */logs/*
 *.h5
